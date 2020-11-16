@@ -2155,26 +2155,27 @@
     "packages-dev": [
         {
             "name": "cakephp/bake",
-            "version": "2.2.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/bake.git",
-                "reference": "f1c297c4e903a15188389011b93ce46119849d01"
+                "reference": "c18933cf1915c9fc9da0800045aba457a037bd48"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/bake/zipball/f1c297c4e903a15188389011b93ce46119849d01",
-                "reference": "f1c297c4e903a15188389011b93ce46119849d01",
+                "url": "https://api.github.com/repos/cakephp/bake/zipball/c18933cf1915c9fc9da0800045aba457a037bd48",
+                "reference": "c18933cf1915c9fc9da0800045aba457a037bd48",
                 "shasum": ""
             },
             "require": {
-                "cakephp/cakephp": "^4.0",
-                "cakephp/twig-view": "^1.0",
+                "cakephp/cakephp": "^4.1",
+                "cakephp/twig-view": "^1.0.2",
                 "php": ">=7.2"
             },
             "require-dev": {
                 "cakephp/cakephp-codesniffer": "^4.0",
                 "cakephp/debug_kit": "^4.1",
+                "cakephp/plugin-installer": "^1.3",
                 "phpunit/phpunit": "~8.5.0"
             },
             "type": "cakephp-plugin",
@@ -2205,7 +2206,7 @@
                 "issues": "https://github.com/cakephp/bake/issues",
                 "source": "https://github.com/cakephp/bake"
             },
-            "time": "2020-10-23T01:17:19+00:00"
+            "time": "2020-11-11T20:19:00+00:00"
         },
         {
             "name": "cakephp/cakephp-codesniffer",
