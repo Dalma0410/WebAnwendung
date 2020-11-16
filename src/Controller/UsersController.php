@@ -13,6 +13,13 @@ use Cake\Controller\Controller;
  */
 class UsersController extends AppController
 {
+
+    public function initialize(): void
+    {
+        // Always enable the CSRF component.
+        $this->loadComponent('Csrf');
+    }
+
     /**
      * Index method
      *

@@ -10,8 +10,7 @@ namespace App\Controller;
  * @method \App\Model\Entity\TblAnmelden[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
  */
 class TblAnmeldenController extends AppController
-{
-
+{    
     public function initialize(): void
     {
         // Always enable the CSRF component.
