@@ -39,6 +39,7 @@ class UsersTable extends Table
 
         $this->setTable('users');
         $this->setDisplayField('name');
+        $this->setPrimaryKey('id');
     }
 
     /**
@@ -51,8 +52,7 @@ class UsersTable extends Table
     {
         $validator
             ->integer('id')
-            ->requirePresence('id', 'create')
-            ->notEmptyString('id');
+            ->allowEmptyString('id', null, 'create');
 
         $validator
             ->scalar('name')
