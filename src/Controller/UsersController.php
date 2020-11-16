@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
-use Cake\Controller\Controller;
+use App\Controller\AppController;
 
 /**
  * Users Controller
@@ -17,7 +17,7 @@ class UsersController extends AppController
     public function initialize(): void
     {
         // Always enable the CSRF component.
-        $this->loadComponent('Csrf');
+        $this->loadComponent('users');
     }
 
     /**
