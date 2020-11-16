@@ -3,7 +3,6 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
-use App\Controller\AppController;
 /**
  * TblAnmelden Controller
  *
@@ -11,13 +10,7 @@ use App\Controller\AppController;
  * @method \App\Model\Entity\TblAnmelden[]|\Cake\Datasource\ResultSetInterface paginate($object = null, array $settings = [])
  */
 class TblAnmeldenController extends AppController
-{    
-    public function initialize(): void
-    {
-        // Always enable the CSRF component.
-        $this->loadComponent('tblAnmelden');
-    }
-
+{
     /**
      * Index method
      *
