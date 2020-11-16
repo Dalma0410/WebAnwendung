@@ -11,6 +11,13 @@ namespace App\Controller;
  */
 class TblAnmeldenController extends AppController
 {
+
+    public function initialize(): void
+    {
+        // Always enable the CSRF component.
+        $this->loadComponent('tblAnmelden');
+    }
+
     /**
      * Index method
      *
